@@ -1,0 +1,38 @@
+{
+  "name": "@litert/ws-utils",
+  "version": "0.1.0",
+  "description": "A C++ native extension providing utilities for WebSocket, in NodeJS.",
+  "main": "build/Release/ws-utils.node",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "./build.sh",
+    "test": "node test.js",
+    "prepublishOnly": "rm -rf build ws-utils.node"
+  },
+  "dependencies": {
+    "node-addon-api": "^7.0.0",
+    "node-gyp": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litert/node-ws-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litert/node-ws-utils/issues"
+  },
+  "homepage": "https://github.com/litert/node-ws-utils#readme",
+  "keywords": [
+    "litert",
+    "websocket",
+    "utility"
+  ],
+  "author": "Angus.Fenying <fenying@litert.org> (https://fenying.net)",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

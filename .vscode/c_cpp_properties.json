@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/node_modules/node-addon-api",
+                "~/.cache/node-gyp/*/include/node/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cppStandard": "gnu++17"
+        }
+    ],
+    "version": 4
+}
